@@ -1,0 +1,49 @@
+body{
+   transform: scale(0.8, 1);
+   transform-origin: top left;
+   width: 125%;
+   font-family: "Helvetica","HiraKakuProN-W6",sans-serif;
+   font-weight: 600;
+   font-size: 65px;
+   color: rgb(230, 210, 170);
+   letter-spacing: -3px;
+   margin: 0;
+   padding: 0;
+   line-height: 132%;
+}
+
+@media screen and (max-width: 480px){
+   body{
+      font-size: 32px;
+      letter-spacing: -2px;
+   }
+}
+
+.item{
+}
+
+.item02{
+   letter-spacing: -4px;
+   padding-right: 36px;
+   color: rgb(200, 210, 220);
+   font-size: 56px 
+}
+
+@media screen and (max-width: 480px){
+   .item02{
+      font-size: 28px;
+      letter-spacing: -3;
+      padding-right: 24px;
+   }
+}
+
+.item03{
+   letter-spacing: -2px;
+   color: rgb(200, 210, 220);
+   padding-right: 36px;
+}
+@media screen and (max-width: 480px){
+   .item03{
+      font-size: 28px;
+      letter-spacing: -1;
+      padding-right: 24px;
